@@ -32,14 +32,15 @@ h1 {
 
     font-size: 22px;
     font-weight: bold;
+    background-color: darkorchid; 
 
     transition: 1s;
 }
 
-.ball1{ 
-    background-color: darkorchid; 
-}
-
 .ball2{ 
     background-color: darkslategray; 
+}
+
+.ball3{ 
+    background-color: darkred; 
 }
