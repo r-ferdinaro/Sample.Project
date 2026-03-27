@@ -1,5 +1,9 @@
 'use strict';
 
 function onBallClick() {
-    console.log('clicked')
+    const elBall = document.querySelector('.ball')
+    const orgBallSize = parseFloat(window.getComputedStyle(elBall).width)
+    const increment = 50
+
+    elBall.style.width = `${orgBallSize + increment}px`
 }
