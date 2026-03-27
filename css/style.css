@@ -14,7 +14,7 @@ h1 {
     height: 80vh;
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     justify-items: center ;
     align-items: center;
@@ -35,6 +35,10 @@ h1 {
     background-color: darkorchid; 
 
     transition: 1s;
+}
+
+.ball1, .ball2 {
+    grid-column: span 2;
 }
 
 .ball2 { 
