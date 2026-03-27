@@ -41,3 +41,7 @@ function changeBGColor() {
     
     elBody.style.backgroundColor = getRandomColor()
 }
+
+function resetPage() {
+    location.reload()
+}
