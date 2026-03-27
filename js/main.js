@@ -35,3 +35,9 @@ function randomBallReduce() {
     elBall1.style.width = (ball1Size > 100) ? `${ball1Size}px` : `100px`
     elBall2.style.width = (ball1Size > 100) ? `${ball1Size}px` : `100px`
 }
+
+function changeBGColor() {
+    const elBody = document.querySelector('body')
+    
+    elBody.style.backgroundColor = getRandomColor()
+}
