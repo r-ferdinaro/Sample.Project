@@ -10,6 +10,17 @@ h1 {
     color: white;
 }
 
+.ball-container {
+    height: 50vh;
+
+    display: grid;
+    grid-template-columns: repeat(5, 20fr);
+    grid-template-rows: repeat(5, 20fr);
+    justify-items: center ;
+    align-items: center;
+    gap: 10px;
+}
+
 .ball {
     width: 100px;
     aspect-ratio: 1 / 1;
@@ -21,7 +32,14 @@ h1 {
 
     font-size: 22px;
     font-weight: bold;
-    background-color: darkorchid; 
 
     transition: 1s;
+}
+
+.ball1{ 
+    background-color: darkorchid; 
+}
+
+.ball2{ 
+    background-color: darkslategray; 
 }
