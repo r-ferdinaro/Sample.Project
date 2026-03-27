@@ -19,5 +19,7 @@ h1 {
     justify-items: center;
     align-items: center;
 
+    font-size: 22px;
+    font-weight: bold;
     background-color: darkorchid; 
 }
