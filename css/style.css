@@ -11,11 +11,11 @@ h1 {
 }
 
 .ball-container {
-    height: 50vh;
+    height: 80vh;
 
     display: grid;
-    grid-template-columns: repeat(5, 20fr);
-    grid-template-rows: repeat(5, 20fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-items: center ;
     align-items: center;
     gap: 10px;
