@@ -37,10 +37,14 @@ h1 {
     transition: 1s;
 }
 
-.ball2{ 
+.ball2 { 
     background-color: darkslategray; 
 }
 
-.ball3{ 
+.ball3 { 
     background-color: darkred; 
+}
+
+.ball4{
+    background-color: darkgoldenrod;
 }
